@@ -3,8 +3,10 @@
 $transaction_id = 1;
 $amount = 20000;
 $time = time();
-$password_hashed = hash_hmac('ripemd160', 'The quick brown fox jumped over the lazy dog.', 'secret');
-$secret_key = 'qwertyuiopasdfghjklzxcvbnm1234567890';
+$secret = 'qwertyuiopasdfghjklzxcvbnm1234567890';
+// $password_hashed = hash_hmac('ripemd160', 'The quick brown fox jumped over the lazy dog.', 'secret');
+$password_hashed = hash_hmac('ripemd160', 'The quick brown fox jumped over the lazy dog.', '$secret');
+// $secret_key = 'qwertyuiopasdfghjklzxcvbnm1234567890';
 // $hash_digest
 // $password_hashed = password_hash('test123456', PASSWORD_BCRYPT);
 ?>
