@@ -5,8 +5,8 @@ $amount = 20000;
 $time = time();
 $secret = 'qwertyuiopasdfghjklzxcvbnm1234567890';
 $password_hashed = hash_hmac('ripemd160', 'The quick brown fox jumped over the lazy dog.', $secret);
-//$password_hased = hash_hmac('ripemd160', 'The quick brown fox jumped over the lazy dog.', 'true');
-//$password_hased = hash_hmac('ripemd160', 'The quick brown fox jumped over the lazy dog.', 'false');
+//$password_hased = hash_hmac('ripemd160', 'The quick brown fox jumped over the lazy dog.', true);
+//$password_hased = hash_hmac('ripemd160', 'The quick brown fox jumped over the lazy dog.', false);
 // $secret_key = 'qwertyuiopasdfghjklzxcvbnm1234567890';
 // $hash_digest
 // $password_hashed = password_hash('test123456', PASSWORD_BCRYPT);

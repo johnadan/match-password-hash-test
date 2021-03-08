@@ -8,6 +8,9 @@ $time = $_POST['time'];
 
 $h1 = $_POST['pw_hashed'];
 
+//true fc6a70ae831ce241ac0a3cd4a470b006e40b7b0d
+//false cece0581a56741694995b14c25056bf7e3572df4
+
 //correct use of $secret
 //hashed password
 $h2 = '05809a224c4f550ee2f30dc8a087b02a71d3ff62';
